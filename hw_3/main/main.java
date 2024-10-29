@@ -1,18 +1,18 @@
-//import java.util.ArrayList;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
+package main;
+
 import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import model.F_Tree;
+import model.Person;
+import service.FileOperations;
+import service.FileOperationsImpl;
 /**
  * Задание 1.
-Реализовать, с учетом ооп подхода, приложение. Для проведения исследований с
-генеалогическим древом.
-Идея: описать некоторое количество компонент, например - модель человека и
-дерева. Под “проведением исследования” можно понимать например получение
-всех детей выбранного человека.
+Продолжаем работать с проектом с семейным деревом. Реализовать интерфейс
+Iterable для дерева. Создать методы сортировки списка людей перед выводом,
+например по имени или по дате рождения (не менее 2). Создать пакетную
+структуру для проекта.
  */
-public class t_Main {
+public class main {
     public static void main(String[] args) {
         F_Tree familyTree = new F_Tree();
         // Add people

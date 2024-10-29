@@ -1,6 +1,8 @@
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import model.Person;
 /**
  * Класс для работы с генеалогическим древом
  */
