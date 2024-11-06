@@ -4,6 +4,9 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import view.Person;
+
 import java.util.Iterator;
 /**
  * Класс для работы с генеалогическим древом

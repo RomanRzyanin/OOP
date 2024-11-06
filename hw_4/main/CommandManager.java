@@ -1,7 +1,8 @@
 package main;
 
 import model.F_Tree;
-import model.Person;
+import view.Person;
+
 import java.util.Scanner;
 
 public class CommandManager {

@@ -2,7 +2,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Person;
+import view.Person;
 /**
  * Класс для работы с генеалогическим древом
  */

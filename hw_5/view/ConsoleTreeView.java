@@ -5,7 +5,7 @@ import presenter.TreePresenter;
 import java.util.List;
 import java.util.Scanner;
 
-public class ConsoleTreeView implements TreeView {
+public class ConsoleTreeView implements FamilyTree {
     private TreePresenter presenter;
     private Scanner scanner;
     public ConsoleTreeView() {

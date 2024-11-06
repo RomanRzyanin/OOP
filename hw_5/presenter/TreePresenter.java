@@ -10,8 +10,7 @@ public class TreePresenter {
     private F_Tree<Person> familyTree;
     private TreeView view;
     private FileOperations<Person> fileOperations;
-    public TreePresenter(F_Tree<Person> familyTree, TreeView
-    view, FileOperations<Person> fileOperations) {
+    public TreePresenter(F_Tree<Person> familyTree, TreeView view, FileOperations<Person> fileOperations) {
         this.familyTree = familyTree;
         this.view = view;
         this.fileOperations = fileOperations;

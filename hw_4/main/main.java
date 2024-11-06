@@ -2,9 +2,9 @@ package main;
 
 import java.io.IOException;
 import model.F_Tree;
-import model.Person;
 import service.FileOperations;
 import service.FileOperationsImpl;
+import view.Person;
 /**
  * Задание 1.
 Продолжаем работать с проектом с семейным деревом. Реализовать интерфейс
