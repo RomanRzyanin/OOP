@@ -12,8 +12,7 @@ public CommandHandler(TreePresenter presenter, PresenterView view) {
     }
     public void handleUserInput() {
     while (true) {
-    view.displayMessage("Enter command (add, list,
-    sortByName, sortByBirthYear, save, load, exit):");
+    view.displayMessage("Enter command (add, list, sortByName, sortByBirthYear, save, load, exit):");
     String command = view.getUserInput();
     presenter.handleCommand(command);
     }
