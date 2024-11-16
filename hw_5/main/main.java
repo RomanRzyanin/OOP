@@ -5,7 +5,9 @@ import presenter.TreePresenter;
 import service.FileOperationsImpl;
 import view.ConsoleTreeView;
 import view.Person;
-
+/**
+ * 
+ */
 public class Main {
     public static void main(String[] args) {
         F_Tree<Person> familyTree = new F_Tree<>();
