@@ -14,7 +14,7 @@ public class NotebookPresenter {
         LocalDateTime dateTime = view.getDateTimeInput();
         String description = view.getDescriptionInput();
         model.add(new Note(dateTime, description));
-        view.showMessage("Note added.");
+        view.showMessage("Заметка добавлена.");
     }
 
     public void showNotesForDay() {
@@ -33,9 +33,9 @@ public class NotebookPresenter {
         String fileName = view.getFileNameInput();
         try {
             model.saveToFile(fileName);
-            view.showMessage("Notes saved to " + fileName);
+            view.showMessage("Заметки сохранены в " + fileName);
         } catch (IOException e) {
-            view.showMessage("Failed to save notes: " + e.getMessage());
+            view.showMessage("Ошибка в сохранении заметок: " + e.getMessage());
         }
     }
 
@@ -43,9 +43,9 @@ public class NotebookPresenter {
         String fileName = view.getFileNameInput();
         try {
             model.loadFromFile(fileName);
-            view.showMessage("Notes loaded from " + fileName);
+            view.showMessage("Заметки получены из " + fileName);
         } catch (IOException e) {
-            view.showMessage("Failed to load notes: " + e.getMessage());
+            view.showMessage("Ошибка при получениие заметок: " + e.getMessage());
         }
     }
 }
