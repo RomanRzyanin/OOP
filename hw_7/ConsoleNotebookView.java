@@ -2,7 +2,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Scanner;
-
+/**
+ * 
+ */
 public class ConsoleNotebookView implements NotebookView {
     private Scanner scanner = new Scanner(System.in);
 

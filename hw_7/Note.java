@@ -1,5 +1,7 @@
 import java.time.LocalDateTime;
-
+/**
+ * 
+ */
 public class Note {
     private LocalDateTime dateTime;
     private String description;
