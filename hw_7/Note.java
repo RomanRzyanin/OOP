@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 /**
- * 
+ * Note
  */
 public class Note {
     private LocalDateTime dateTime;

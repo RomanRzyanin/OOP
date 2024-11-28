@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.List;
 /**
- * 
+ * NotebookPresenter
  */
 public class NotebookPresenter {
     private Notebook model;

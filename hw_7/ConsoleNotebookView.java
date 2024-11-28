@@ -3,7 +3,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Scanner;
 /**
- * 
+ * ConsoleNotebookView
  */
 public class ConsoleNotebookView implements NotebookView {
     private Scanner scanner = new Scanner(System.in);

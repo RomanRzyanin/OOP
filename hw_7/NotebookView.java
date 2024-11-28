@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 import java.util.List;
 /**
- * 
+ * NotebookView
  */
 public interface NotebookView {
     void showNotes(List<Note> notes);
